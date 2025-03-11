@@ -1,2 +1,1 @@
-x <- -33:66
-sum(x)
+l1 <- list(1:3, 'part of list', seq(1.5, 2.5, 0.1))

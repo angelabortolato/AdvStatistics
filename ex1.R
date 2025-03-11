@@ -21,3 +21,19 @@ repeat {
   }
 }
 f
+
+
+
+
+l1 <- list(1:3, 'part of list', seq(1.5, 2.5, 0.1))
+
+
+x <- c(2.1, 4, 6.7, 1.75)
+x[c(T, F)]
+
+data=morley
+hm <- hist(morley[, 3], col='#d92ece')
+
+library(ggplot2)
+p1 <- ggplot(mpg, aes(displ, hwy))
+p1 + geom_point()
